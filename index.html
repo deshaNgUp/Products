@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Products</title>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+
+<button id ="btn-OpenModal">Открыть модальное окно</button>
+	<div id="modal">
+		<div class="modal-container">
+			<div class="close-modal">
+				<span class="close">&#215</span>
+			</div>
+			<form onsubmit="return validate()">
+			<input id="search_products" type="text" placeholder="Я ищу...">
+			<input id="search_product" type="text" placeholder="Я ищу...">
+			<button class="btn-enter">Search</button>
+			</form>
+			<!-- <form>
+			<input class="search_products" type="text" placeholder="Я ищу...">
+			<input class="search_product" type="text" placeholder="Я ищу...">
+			<button class="btn-enter">Search</button>
+			</form> -->
+		</div>	
+		<script src="js/products.js"></script>
+
+</body>
+</html>
