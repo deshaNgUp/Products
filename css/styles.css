@@ -1,3 +1,19 @@
+*, :before, :after {
+	box-sizing: border-box;
+}
+
+td {
+	border: 1px solid black;
+	background: lightgray;
+	padding: 20px;
+	cursor: pointer;
+	text-align: center;
+}
+
+table {
+	width: 100%;
+}
+
 input {
 	margin: 10px;
 }

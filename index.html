@@ -5,22 +5,24 @@
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 <body>
-
+<div id="custom-table"></div>
 <button id ="btn-OpenModal">Открыть модальное окно</button>
 	<div id="modal">
 		<div class="modal-container">
 			<div class="close-modal">
 				<span class="close">&#215</span>
 			</div>
-			<form onsubmit="return validate()">
+			<div>
 			<input id="search_products" type="text" placeholder="Я ищу...">
 			<input id="search_product" type="text" placeholder="Я ищу...">
-				<button class="btn-enter">Search</button>
-				<div class=""></div>
-				<span class="span"></span>
-			</form>
-		</div>	
+				<button class="btn-Add">Add</button>
+				<button class="btn-Edit">Edit</button>
+				<button class="btn-Delete">Delete</button>
+			</div>
+		</div>
+	</div>
 		<script src="js/products.js"></script>
+		<script src="2020test/src/js/config.js"></script>
 
 </body>
 </html>
